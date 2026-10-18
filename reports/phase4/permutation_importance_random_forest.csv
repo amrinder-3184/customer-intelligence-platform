@@ -1,0 +1,24 @@
+feature,is_group,auc_drop_mean,auc_drop_std,early_warning
+GROUP InternetService + 6 add-ons,True,0.1043726048764073,0.01262204413847197,mixed
+GROUP tenure + TotalCharges,True,0.056981930687377516,0.006141726447989787,mixed
+Contract,False,0.042798512942461356,0.006889754170657478,usable if recorded before the prediction date
+tenure,False,0.021004359221889927,0.00542261720481928,retrospective (measured at churn for churners)
+InternetService,False,0.018466738858971193,0.006316693745383617,usable if recorded before the prediction date
+TotalCharges,False,0.010006615934731964,0.0033296309296412803,retrospective (measured at churn for churners)
+GROUP charges (Monthly + Total),True,0.006875424180096555,0.003660094259477791,mixed
+OnlineSecurity,False,0.006178639888932604,0.002835620067920437,usable if recorded before the prediction date
+PaymentMethod,False,0.0033734466380534655,0.0019001402881646354,usable if recorded before the prediction date
+PaperlessBilling,False,0.003234225697189932,0.001304492143269172,usable if recorded before the prediction date
+TechSupport,False,0.0025456534955760634,0.0020727288775921164,usable if recorded before the prediction date
+MonthlyCharges,False,0.0021833992240499135,0.0013714875314901952,usable if recorded before the prediction date
+MultipleLines,False,0.000980154227628951,0.0008226253726004783,usable if recorded before the prediction date
+StreamingTV,False,0.0008764019177223448,0.000953279504780024,usable if recorded before the prediction date
+StreamingMovies,False,0.0008689487343400515,0.0013272457572304464,usable if recorded before the prediction date
+GROUP PhoneService + MultipleLines,True,0.0008073363768899133,0.0010248839174664588,mixed
+OnlineBackup,False,0.0006857608591618592,0.0013839826029108208,usable if recorded before the prediction date
+SeniorCitizen,False,0.00020702460116102107,0.000572772638393396,usable if recorded before the prediction date
+PhoneService,False,6.784107322866273e-05,0.0003027729209923842,usable if recorded before the prediction date
+gender,False,5.2615475500443765e-05,0.0005920822423660377,usable if recorded before the prediction date
+Dependents,False,-0.00011244334358609276,0.0008324596365288684,usable if recorded before the prediction date
+Partner,False,-0.0003582726760313415,0.0008053720777505015,usable if recorded before the prediction date
+DeviceProtection,False,-0.00042494242169434317,0.0009540324309404181,usable if recorded before the prediction date

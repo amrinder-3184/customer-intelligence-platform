@@ -1,0 +1,32 @@
+feature,term,reference,training_sd,log_odds,odds_ratio,kind,direction,early_warning,abs_log_odds
+Contract,Two year,Month-to-month,,-1.3289148383148177,0.2647644176677535,categorical,lower churn odds,usable if recorded before the prediction date,1.3289148383148177
+InternetService,DSL,Fiber optic,,-1.2921846656641414,0.27467006488473683,categorical,lower churn odds,usable if recorded before the prediction date,1.2921846656641414
+tenure,+1 SD,-,24.56656301538815,-1.2575936953323827,0.28433740638808475,numeric,lower churn odds,retrospective (measured at churn for churners),1.2575936953323827
+InternetService,No,Fiber optic,,-0.9404230967546201,0.3904625969474993,categorical,lower churn odds,usable if recorded before the prediction date,0.9404230967546201
+Contract,One year,Month-to-month,,-0.6939765159161008,0.4995855042236808,categorical,lower churn odds,usable if recorded before the prediction date,0.6939765159161008
+MonthlyCharges,+1 SD,-,30.135430576006627,-0.5970405384556999,0.5504382287581326,numeric,lower churn odds,usable if recorded before the prediction date,0.5970405384556999
+TotalCharges,+1 SD,-,2277.606686938009,0.5281316743287918,1.6957611131081625,numeric,higher churn odds,retrospective (measured at churn for churners),0.5281316743287918
+OnlineSecurity,No internet service,No,,-0.45804434111172593,0.6325194289708763,categorical,lower churn odds,usable if recorded before the prediction date,0.45804434111172593
+TechSupport,No internet service,No,,-0.4319668314975666,0.6492309103450554,categorical,lower churn odds,usable if recorded before the prediction date,0.4319668314975666
+StreamingTV,Yes,No,,0.420192176628406,1.5222540691651896,categorical,higher churn odds,usable if recorded before the prediction date,0.420192176628406
+StreamingMovies,Yes,No,,0.4163006612056155,1.5163417054662354,categorical,higher churn odds,usable if recorded before the prediction date,0.4163006612056155
+PaymentMethod,Credit card (automatic),Electronic check,,-0.41411079018129904,0.6609277229072493,categorical,lower churn odds,usable if recorded before the prediction date,0.41411079018129904
+MultipleLines,Yes,No,,0.3883261757874049,1.4745106555337053,categorical,higher churn odds,usable if recorded before the prediction date,0.3883261757874049
+PaymentMethod,Bank transfer (automatic),Electronic check,,-0.38227037829004074,0.6823105463043974,categorical,lower churn odds,usable if recorded before the prediction date,0.38227037829004074
+PaperlessBilling,No,Yes,,-0.37175657009353535,0.6895220723895765,categorical,lower churn odds,usable if recorded before the prediction date,0.37175657009353535
+OnlineBackup,No internet service,No,,-0.3330633549282903,0.7167247846699202,categorical,lower churn odds,usable if recorded before the prediction date,0.3330633549282903
+OnlineSecurity,Yes,No,,-0.32742715437836095,0.7207757947240235,categorical,lower churn odds,usable if recorded before the prediction date,0.32742715437836095
+PaymentMethod,Mailed check,Electronic check,,-0.3084675747830886,0.7345717704620061,categorical,lower churn odds,usable if recorded before the prediction date,0.3084675747830886
+TechSupport,Yes,No,,-0.27527213515003635,0.7593654450747215,categorical,lower churn odds,usable if recorded before the prediction date,0.27527213515003635
+DeviceProtection,No internet service,No,,-0.2654116720145377,0.7668901777586158,categorical,lower churn odds,usable if recorded before the prediction date,0.2654116720145377
+Dependents,Yes,No,,-0.22301141965483492,0.8001057123113177,categorical,lower churn odds,usable if recorded before the prediction date,0.22301141965483492
+TotalCharges,missing (blank),not missing,,-0.2051482496828084,0.81452655415686,numeric,lower churn odds,retrospective (measured at churn for churners),0.2051482496828084
+MultipleLines,No phone service,No,,0.14602605736875435,1.157226341931453,categorical,higher churn odds,usable if recorded before the prediction date,0.14602605736875435
+SeniorCitizen,1,0,,0.14505343141377566,1.156101340746869,categorical,higher churn odds,usable if recorded before the prediction date,0.14505343141377566
+StreamingMovies,No internet service,No,,-0.08618043331973985,0.9174286815826223,categorical,lower churn odds,usable if recorded before the prediction date,0.08618043331973985
+StreamingTV,No internet service,No,,-0.0842346756083473,0.9192155133215405,categorical,lower churn odds,usable if recorded before the prediction date,0.0842346756083473
+OnlineBackup,Yes,No,,-0.0774651820114895,0.9254592464650901,categorical,lower churn odds,usable if recorded before the prediction date,0.0774651820114895
+DeviceProtection,Yes,No,,0.05783818381602586,1.0595435305468748,categorical,higher churn odds,usable if recorded before the prediction date,0.05783818381602586
+PhoneService,No,Yes,,0.03146434739180595,1.0319645827108312,categorical,higher churn odds,usable if recorded before the prediction date,0.03146434739180595
+Partner,Yes,No,,0.02454299294961712,1.0248466513404986,categorical,higher churn odds,usable if recorded before the prediction date,0.02454299294961712
+gender,Female,Male,,-0.021712529210151238,0.9785214909687355,categorical,lower churn odds,usable if recorded before the prediction date,0.021712529210151238

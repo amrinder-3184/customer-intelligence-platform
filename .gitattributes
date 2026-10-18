@@ -1,0 +1,4 @@
+# Report files are checked by exact SHA-256 (reports/historical_results.sha256),
+# so Git must store and check them out byte-for-byte, never converting line endings.
+reports/** -text
+*.png binary

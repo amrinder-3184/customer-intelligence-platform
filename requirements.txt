@@ -1,0 +1,23 @@
+# Pinned to the versions installed and verified on Python 3.11.9 (Windows).
+# Install with: python -m pip install -r requirements.txt
+#
+# Phase 1: data inspection and validation
+pandas==3.0.6
+numpy==2.4.6
+pytest==9.1.1
+
+# Phase 2: EDA charts (SQLite comes with Python's standard library)
+matplotlib==3.11.2
+
+# Phase 3: preprocessing, baseline and logistic regression
+scikit-learn==1.9.1
+# installed automatically with scikit-learn (versions verified): scipy==1.17.1, joblib==1.6.0, threadpoolctl==3.7.0
+
+# Phase 4: no new dependencies (uses scikit-learn, pandas, numpy, matplotlib)
+
+# Phase 5: prediction API
+fastapi==0.143.3        # brings pydantic==2.14.1 and starlette==1.8.0
+uvicorn==0.54.0         # ASGI server that runs the app
+httpx2==2.13.1          # required by FastAPI/Starlette TestClient (tests + verify's in-process API check)
+
+# Phase 6: no new dependencies. Exact versions of every installed package: requirements-lock.txt

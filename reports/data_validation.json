@@ -1,0 +1,162 @@
+{
+  "file": "Telco-Customer-Churn.csv",
+  "sha256": "16320c9c1ec72448db59aa0a26a0b95401046bef5d02fd3aeb906448e3055e91",
+  "summary": {
+    "rows": 7043,
+    "columns": 21,
+    "column_names": [
+      "customerID",
+      "gender",
+      "SeniorCitizen",
+      "Partner",
+      "Dependents",
+      "tenure",
+      "PhoneService",
+      "MultipleLines",
+      "InternetService",
+      "OnlineSecurity",
+      "OnlineBackup",
+      "DeviceProtection",
+      "TechSupport",
+      "StreamingTV",
+      "StreamingMovies",
+      "Contract",
+      "PaperlessBilling",
+      "PaymentMethod",
+      "MonthlyCharges",
+      "TotalCharges",
+      "Churn"
+    ],
+    "target_counts": {
+      "No": 5174,
+      "Yes": 1869
+    },
+    "churn_rate": 0.2654,
+    "numeric": {
+      "tenure": {
+        "min": 0.0,
+        "median": 29.0,
+        "max": 72.0,
+        "missing_or_blank": 0
+      },
+      "MonthlyCharges": {
+        "min": 18.25,
+        "median": 70.35,
+        "max": 118.75,
+        "missing_or_blank": 0
+      },
+      "TotalCharges": {
+        "min": 18.8,
+        "median": 1397.475,
+        "max": 8684.8,
+        "missing_or_blank": 11
+      }
+    },
+    "categorical_counts": {
+      "gender": {
+        "Male": 3555,
+        "Female": 3488
+      },
+      "SeniorCitizen": {
+        "0": 5901,
+        "1": 1142
+      },
+      "Partner": {
+        "No": 3641,
+        "Yes": 3402
+      },
+      "Dependents": {
+        "No": 4933,
+        "Yes": 2110
+      },
+      "PhoneService": {
+        "Yes": 6361,
+        "No": 682
+      },
+      "MultipleLines": {
+        "No": 3390,
+        "Yes": 2971,
+        "No phone service": 682
+      },
+      "InternetService": {
+        "Fiber optic": 3096,
+        "DSL": 2421,
+        "No": 1526
+      },
+      "OnlineSecurity": {
+        "No": 3498,
+        "Yes": 2019,
+        "No internet service": 1526
+      },
+      "OnlineBackup": {
+        "No": 3088,
+        "Yes": 2429,
+        "No internet service": 1526
+      },
+      "DeviceProtection": {
+        "No": 3095,
+        "Yes": 2422,
+        "No internet service": 1526
+      },
+      "TechSupport": {
+        "No": 3473,
+        "Yes": 2044,
+        "No internet service": 1526
+      },
+      "StreamingTV": {
+        "No": 2810,
+        "Yes": 2707,
+        "No internet service": 1526
+      },
+      "StreamingMovies": {
+        "No": 2785,
+        "Yes": 2732,
+        "No internet service": 1526
+      },
+      "Contract": {
+        "Month-to-month": 3875,
+        "Two year": 1695,
+        "One year": 1473
+      },
+      "PaperlessBilling": {
+        "Yes": 4171,
+        "No": 2872
+      },
+      "PaymentMethod": {
+        "Electronic check": 2365,
+        "Mailed check": 1612,
+        "Bank transfer (automatic)": 1544,
+        "Credit card (automatic)": 1522
+      }
+    }
+  },
+  "issues": [
+    {
+      "severity": "WARNING",
+      "check": "blank_numeric",
+      "message": "TotalCharges: blank values (all have tenure == 0)",
+      "row_count": 11,
+      "examples": [
+        "4472-LVYGI",
+        "3115-CZMZD",
+        "5709-LVOEQ",
+        "4367-NUYAO",
+        "1371-DWPAZ"
+      ]
+    },
+    {
+      "severity": "WARNING",
+      "check": "duplicate_feature_rows",
+      "message": "Different customers with identical feature values",
+      "row_count": 73,
+      "examples": [
+        "1066-JKSGK",
+        "6380-ARCEH",
+        "3930-ZGWVE",
+        "8203-XJZRC",
+        "2866-IKBTM"
+      ]
+    }
+  ],
+  "passed": true
+}

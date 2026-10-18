@@ -1,0 +1,11 @@
+{
+  "description": "Expected Phase 3 train/test split (seed 42, stratified 80/20). Derived once from the trusted split file; used by make_split and verify. Never regenerate from a modified split.",
+  "raw_file_sha256": "16320c9c1ec72448db59aa0a26a0b95401046bef5d02fd3aeb906448e3055e91",
+  "seed": 42,
+  "test_size": 0.2,
+  "train_rows": 5634,
+  "test_rows": 1409,
+  "train_ids_sha256": "a553196dd46b672f6344867707144fbf56a8abe14b338a225662c7208a1450dd",
+  "test_ids_sha256": "1ad8aefb7e34776a78d76765d2465c630a41b3813b1d7d96d0d1b03d049776f6",
+  "id_hash_method": "sha256 of the sorted customerIDs joined with '\\n'"
+}

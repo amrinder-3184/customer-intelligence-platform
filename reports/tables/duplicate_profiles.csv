@@ -1,0 +1,34 @@
+profile_id,size,churned,retained,conflicting,gender,SeniorCitizen,Partner,Dependents,PhoneService,MultipleLines,InternetService,OnlineSecurity,OnlineBackup,DeviceProtection,TechSupport,StreamingTV,StreamingMovies,Contract,PaperlessBilling,PaymentMethod,tenure,MonthlyCharges,TotalCharges,customer_ids
+1,4,1,3,True,Male,0,No,No,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Mailed check,1,20.2,20.2,3247-MHJKM;4786-UKSNZ;6380-ARCEH;8048-DSDFQ
+2,3,1,2,True,Female,0,No,No,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Mailed check,1,19.65,19.65,0970-QXPXW;7721-DVEKZ;8329-IBCTI
+3,3,1,2,True,Female,0,No,No,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Mailed check,1,19.9,19.9,3900-AQPHZ;6654-QGBZZ;7878-RTCZG
+4,3,2,1,True,Female,0,No,No,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Mailed check,1,20.9,20.9,0426-TIRNE;7243-LCGGZ;7434-SHXLS
+5,3,2,1,True,Male,0,No,No,Yes,No,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,1,69.9,69.9,5542-TBBWB;5875-YPQFJ;9804-ICWBG
+6,3,0,3,False,Male,0,No,No,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Mailed check,1,20.05,20.05,3030-ZKIWL;7096-UCLNH;8749-CLJXC
+7,2,1,1,True,Female,0,No,No,Yes,No,DSL,No,No,No,No,No,No,Month-to-month,Yes,Mailed check,1,45.4,45.4,2275-RBYQS;5692-FPTAH
+8,2,1,1,True,Female,0,No,No,Yes,No,Fiber optic,No,No,No,No,No,No,Month-to-month,No,Mailed check,1,71.1,71.1,0511-JTEOY;8040-MNRTF
+9,2,1,1,True,Female,0,No,No,Yes,No,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,1,70.25,70.25,1640-PLFMP;3244-DCJWY
+10,2,1,1,True,Female,0,No,No,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Mailed check,1,19.5,19.5,1905-OEILC;7551-JOHTI
+11,2,1,1,True,Female,0,No,No,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Mailed check,1,20.4,20.4,1963-VAUKV;3727-JEZTU
+12,2,1,1,True,Female,0,No,No,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Mailed check,1,20.5,20.5,2002-MZHWP;9753-OYLBX
+13,2,1,1,True,Female,0,No,No,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Mailed check,1,20.25,20.25,0670-KDOMA;2876-VBBBL
+14,2,1,1,True,Male,0,No,No,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Mailed check,1,19.55,19.55,1029-QFBEN;7601-WFVZV
+15,2,1,1,True,Male,0,No,No,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Mailed check,1,19.65,19.65,3785-NRHYR;6141-OOXUQ
+16,2,1,1,True,Male,0,No,No,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Mailed check,1,19.75,19.75,3930-ZGWVE;7239-HZZCX
+17,2,1,1,True,Male,0,No,No,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Mailed check,1,20.0,20.0,4877-EVATK;7698-YFGEZ
+18,2,1,1,True,Male,0,No,No,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Mailed check,1,20.25,20.25,4211-MMAZN;8203-XJZRC
+19,2,1,1,True,Male,0,No,No,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Mailed check,1,20.6,20.6,3976-NLDEZ;5049-GLYVG
+20,2,2,0,False,Female,0,No,No,Yes,No,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,1,69.2,69.2,7660-HDPJV;9728-FTTVZ
+21,2,2,0,False,Female,0,No,No,Yes,No,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,1,70.1,70.1,0328-GRPMV;4702-IOQDC
+22,2,2,0,False,Female,0,No,No,Yes,No,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Mailed check,1,70.15,70.15,2619-WFQWU;9985-MWVIX
+23,2,0,2,False,Female,0,No,No,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Mailed check,1,19.55,19.55,2866-IKBTM;8605-ITULD
+24,2,2,0,False,Female,1,No,No,Yes,No,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,1,69.6,69.6,2636-ALXXZ;8375-DKEBR
+25,2,2,0,False,Male,0,No,No,Yes,No,DSL,No,No,No,No,No,No,Month-to-month,No,Electronic check,1,45.3,45.3,1963-SVUCV;5552-ZNFSJ
+26,2,2,0,False,Male,0,No,No,Yes,No,DSL,No,No,No,No,No,No,Month-to-month,Yes,Mailed check,1,45.7,45.7,0887-HJGAR;9117-SHLZX
+27,2,2,0,False,Male,0,No,No,Yes,No,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,1,69.35,69.35,3428-XZMAZ;6457-GIRWB
+28,2,2,0,False,Male,0,No,No,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Mailed check,1,20.15,20.15,1066-JKSGK;1934-SJVJK
+29,2,0,2,False,Male,0,No,No,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Mailed check,1,20.3,20.3,2676-ISHSF;9122-UMROB
+30,2,0,2,False,Male,0,No,No,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Mailed check,1,20.45,20.45,0673-IGUQO;2668-TZSPS
+31,2,2,0,False,Male,0,No,No,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Mailed check,1,20.1,20.1,1000-AJSLD;1240-KNSEZ
+32,2,2,0,False,Male,0,No,No,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Mailed check,1,20.2,20.2,5356-RHIPP;8305-VHZBZ
+33,2,0,2,False,Male,0,No,No,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Mailed check,1,20.45,20.45,5996-DAOQL;8262-COGGB

@@ -1,0 +1,10 @@
+[project]
+name = "churn-platform"
+version = "0.1.0"
+description = "Customer Intelligence Platform: churn analysis, prediction and serving"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+# Lets tests import churn_platform without installing the package.
+pythonpath = ["."]
+testpaths = ["tests"]

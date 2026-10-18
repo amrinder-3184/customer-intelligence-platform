@@ -1,0 +1,109 @@
+{
+  "file": "Telco-Customer-Churn.csv",
+  "sha256": "16320c9c1ec72448db59aa0a26a0b95401046bef5d02fd3aeb906448e3055e91",
+  "target": {
+    "customers": 7043,
+    "churned": 1869,
+    "retained": 5174,
+    "churn_rate": 0.2653698707936959,
+    "retention_rate": 0.7346301292063041
+  },
+  "quality": {
+    "raw_dtypes": {
+      "customerID": "str",
+      "gender": "str",
+      "SeniorCitizen": "str",
+      "Partner": "str",
+      "Dependents": "str",
+      "tenure": "str",
+      "PhoneService": "str",
+      "MultipleLines": "str",
+      "InternetService": "str",
+      "OnlineSecurity": "str",
+      "OnlineBackup": "str",
+      "DeviceProtection": "str",
+      "TechSupport": "str",
+      "StreamingTV": "str",
+      "StreamingMovies": "str",
+      "Contract": "str",
+      "PaperlessBilling": "str",
+      "PaymentMethod": "str",
+      "MonthlyCharges": "str",
+      "TotalCharges": "str",
+      "Churn": "str"
+    },
+    "analysis_dtypes": {
+      "tenure": "int64",
+      "MonthlyCharges": "float64",
+      "TotalCharges": "float64"
+    },
+    "blank_cells_per_column": {
+      "TotalCharges": 11
+    },
+    "total_charges_blank_rows": 11,
+    "total_charges_blank_all_tenure_zero": true,
+    "tenure_zero_rows": 11,
+    "total_charges_ratio_to_tenure_x_monthly": {
+      "p05": 0.924,
+      "median": 1.0,
+      "p95": 1.075
+    },
+    "duplicate_customer_ids": 0,
+    "fully_duplicated_rows": 0
+  },
+  "duplicates": {
+    "groups": 33,
+    "rows": 73,
+    "largest_group": 4,
+    "conflicting_groups": 18,
+    "rows_in_conflicting_groups": 42,
+    "share_of_dataset": 0.010364901320460031,
+    "tenure_values_in_duplicated_rows": [
+      1
+    ]
+  },
+  "sql_checks": [
+    {
+      "query": "overall_churn",
+      "rows": 1,
+      "passed": true,
+      "problems": []
+    },
+    {
+      "query": "churn_by_contract",
+      "rows": 3,
+      "passed": true,
+      "problems": []
+    },
+    {
+      "query": "churn_by_tenure_group",
+      "rows": 4,
+      "passed": true,
+      "problems": []
+    },
+    {
+      "query": "churn_by_payment_method",
+      "rows": 4,
+      "passed": true,
+      "problems": []
+    },
+    {
+      "query": "monthly_charges_by_churn_status",
+      "rows": 2,
+      "passed": true,
+      "problems": []
+    },
+    {
+      "query": "churn_by_monthly_charges_band",
+      "rows": 4,
+      "passed": true,
+      "problems": []
+    },
+    {
+      "query": "segment_contract_internet",
+      "rows": 9,
+      "passed": true,
+      "problems": []
+    }
+  ]
+}

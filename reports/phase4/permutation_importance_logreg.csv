@@ -1,0 +1,24 @@
+feature,is_group,auc_drop_mean,auc_drop_std,early_warning
+tenure,False,0.16554870908683517,0.013646359784695422,retrospective (measured at churn for churners)
+GROUP InternetService + 6 add-ons,True,0.1310939106381101,0.02274725554656362,mixed
+GROUP tenure + TotalCharges,True,0.0830150178631606,0.00916386556969613,mixed
+InternetService,False,0.038104256007134546,0.009060602925357835,usable if recorded before the prediction date
+Contract,False,0.03446825362356937,0.0064319337816140685,usable if recorded before the prediction date
+TotalCharges,False,0.019949325503461325,0.005169285122194082,retrospective (measured at churn for churners)
+MonthlyCharges,False,0.01951550273670219,0.008566903571397931,usable if recorded before the prediction date
+GROUP charges (Monthly + Total),True,0.010799290056906963,0.0035744085100322155,mixed
+StreamingTV,False,0.005161452818161787,0.0017098184733785123,usable if recorded before the prediction date
+PaperlessBilling,False,0.004907492962217388,0.0018971762475165112,usable if recorded before the prediction date
+OnlineSecurity,False,0.004813367009269504,0.002312391360462755,usable if recorded before the prediction date
+PaymentMethod,False,0.00475682151536986,0.0017939619710262247,usable if recorded before the prediction date
+StreamingMovies,False,0.004271136513612234,0.0027723483061476606,usable if recorded before the prediction date
+MultipleLines,False,0.0032445133741070098,0.0021116780387519826,usable if recorded before the prediction date
+TechSupport,False,0.0031015122619368007,0.0018097665166498325,usable if recorded before the prediction date
+GROUP PhoneService + MultipleLines,True,0.0029269003488116272,0.0023988553109856744,mixed
+OnlineBackup,False,0.0011742038679657396,0.0013863061285664532,usable if recorded before the prediction date
+DeviceProtection,False,0.0011048024899077413,0.0013718007121355275,usable if recorded before the prediction date
+Dependents,False,0.0006095561886644285,0.0011696001619518775,usable if recorded before the prediction date
+SeniorCitizen,False,0.00019519146736663996,0.0006186679898849414,usable if recorded before the prediction date
+PhoneService,False,4.9415155785053064e-05,0.00032420868168474325,usable if recorded before the prediction date
+Partner,False,-4.0256020888391754e-05,0.0003778402070052137,usable if recorded before the prediction date
+gender,False,-0.0001819973038854483,0.00031696228935808486,usable if recorded before the prediction date

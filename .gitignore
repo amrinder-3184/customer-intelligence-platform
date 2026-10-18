@@ -1,0 +1,35 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets (none are used yet; ignored defensively)
+.env
+*.env
+
+# Raw data: re-download with `python -m churn_platform.download`.
+# Kept out of Git because the file carries no explicit data licence.
+data/raw/*
+!data/raw/.gitkeep
+*.part
+
+# Derived data: SQLite DB and train/test split file, both rebuilt by the scripts
+data/processed/
+
+# Scratch output of `analyze_models --skip-test` (cost-assumption exploration)
+reports/phase4_exploratory/
+
+# Generated databases and model files (decided per phase)
+*.db
+*.sqlite
+models/
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

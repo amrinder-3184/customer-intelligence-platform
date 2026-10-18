@@ -1,0 +1,74 @@
+{
+  "decisions_sha256": "ced2782e3e4f0654894050317e50dc96ad9adce2a24898f89d4607aaee76966c",
+  "decisions": {
+    "data_used": "training set only (5-fold stratified OOF, seed 42); test set not used",
+    "selected_model": "logreg",
+    "model_reason": "no candidate improved both ROC-AUC and AP by more than 2 SE of the paired fold difference",
+    "selected_calibration": "uncalibrated",
+    "calibration_reason": "no calibrator lowered OOF Brier and log loss while also lowering Brier in at least 4 of 5 folds",
+    "cost_assumptions": {
+      "fp_cost": 1.0,
+      "fn_cost": 5.0,
+      "status": "ILLUSTRATIVE ASSUMPTION, not measured business costs"
+    },
+    "selected_threshold": 0.16,
+    "threshold_rule": "lowest total OOF cost on grid 0.05-0.95 step 0.01; ties -> higher threshold",
+    "theoretical_threshold_if_calibrated": 0.16666666666666666,
+    "baseline_threshold_kept_for_reference": 0.5,
+    "seed": 42
+  },
+  "note": "Scored once after all decisions were fixed from training data. Not used for any choice.",
+  "at_selected_threshold": {
+    "threshold": 0.16,
+    "n": 1409,
+    "positives": 374,
+    "predicted_positives": 760,
+    "accuracy": 0.673527324343506,
+    "precision": 0.44342105263157894,
+    "precision_defined": true,
+    "recall": 0.9010695187165776,
+    "f1": 0.5943562610229277,
+    "roc_auc": 0.8422589061975252,
+    "average_precision": 0.6342191206087134,
+    "brier": 0.1379928247715142,
+    "confusion_matrix": {
+      "tn": 612,
+      "fp": 423,
+      "fn": 37,
+      "tp": 337
+    },
+    "classification_report_text": "              precision    recall  f1-score   support\n\n    Retained      0.943     0.591     0.727      1035\n     Churned      0.443     0.901     0.594       374\n\n    accuracy                          0.674      1409\n   macro avg      0.693     0.746     0.661      1409\nweighted avg      0.810     0.674     0.692      1409\n",
+    "assumed_cost": 608.0
+  },
+  "at_default_0_5": {
+    "threshold": 0.5,
+    "n": 1409,
+    "positives": 374,
+    "predicted_positives": 319,
+    "accuracy": 0.8062455642299503,
+    "precision": 0.658307210031348,
+    "precision_defined": true,
+    "recall": 0.5614973262032086,
+    "f1": 0.6060606060606061,
+    "roc_auc": 0.8422589061975252,
+    "average_precision": 0.6342191206087134,
+    "brier": 0.1379928247715142,
+    "confusion_matrix": {
+      "tn": 926,
+      "fp": 109,
+      "fn": 164,
+      "tp": 210
+    },
+    "classification_report_text": "              precision    recall  f1-score   support\n\n    Retained      0.850     0.895     0.872      1035\n     Churned      0.658     0.561     0.606       374\n\n    accuracy                          0.806      1409\n   macro avg      0.754     0.728     0.739      1409\nweighted avg      0.799     0.806     0.801      1409\n",
+    "assumed_cost": 929.0
+  },
+  "probability_metrics": {
+    "brier": 0.1379928247715142,
+    "brier_reference_no_skill": 0.19497995497866552,
+    "brier_skill_score": 0.2922717374377627,
+    "log_loss": 0.42012426923155327,
+    "ece": 0.018164211165720014,
+    "mean_predicted": 0.2676774692123798,
+    "observed_rate": 0.2654364797728886
+  }
+}
